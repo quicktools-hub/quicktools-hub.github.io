@@ -1,3 +1,295 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Contact QuickTools Hub with corrections, questions and suggestions."><title>Contact | QuickTools Hub</title><link rel="stylesheet" href="style.css"></head><body>
-<header><div class="nav"><a class="logo" href="index.html">Quick<span>Tools</span> Hub</a><nav><a href="index.html#tools">Tools</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav></div></header><section class="hero"><h1>Contact QuickTools Hub</h1><p>Have a question, correction or suggestion? We'd like to hear from you.</p></section><main class="container"><div class="content"><h2>Contact</h2><p>For now, contact details are intentionally left as a placeholder. Before publishing, replace this section with an email address you control, such as <strong>yourname@example.com</strong>.</p><div class="notice">Do not publish an email address you do not own.</div><h2>Suggestions</h2><p>You can contact us about calculation errors, broken links, accessibility issues or suggestions for new tools.</p></div></main>
-<footer><p>© 2026 QuickTools Hub</p><p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a></p></footer><script src="script.js"></script></body></html>
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us - QuickTools Hub</title>
+  <meta name="description" content="Contact QuickTools Hub for questions, suggestions, feedback, or issues with our free online tools.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7f6;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #168a5b;
+      color: white;
+      padding: 18px 20px;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+
+    .home-link {
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #168a5b;
+      font-size: 32px;
+    }
+
+    h2 {
+      font-size: 21px;
+      margin-top: 30px;
+    }
+
+    .intro {
+      color: #555;
+    }
+
+    .contact-box {
+      background: #eef9f4;
+      border-left: 4px solid #168a5b;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 22px 0;
+    }
+
+    .email {
+      color: #168a5b;
+      font-weight: bold;
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    label {
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: inherit;
+    }
+
+    textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      background: #168a5b;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #117149;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #666;
+      margin-top: 12px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 25px 15px;
+      text-align: center;
+      background: #17201c;
+      color: #ddd;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 7px;
+    }
+
+    @media (max-width: 600px) {
+      .header-inner {
+        gap: 10px;
+      }
+
+      .logo {
+        font-size: 19px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="index.html">QuickTools Hub</a>
+      <a class="home-link" href="index.html">Home</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="card">
+
+      <h1>Contact Us</h1>
+
+      <p class="intro">
+        We'd love to hear from you. If you have a question, suggestion,
+        feedback, or find an issue with one of our tools, please contact us.
+      </p>
+
+      <div class="contact-box">
+        <strong>Email:</strong><br>
+        <a class="email" href="mailto:YOUR-EMAIL@gmail.com">
+          sagar79597@gmail.com
+        </a>
+      </div>
+
+      <h2>Send Us a Message</h2>
+
+      <form onsubmit="sendEmail(event)">
+
+        <label for="name">Your Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        >
+
+        <label for="email">Your Email</label>
+
+<input
+  type="email"
+  id="email"
+  name="email"
+  placeholder="Enter your email"
+  required
+>
+        <label for="message">Your Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write your message here..."
+          required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <p class="note">
+          Your email app will open with your message ready to send.
+        </p>
+
+      </form>
+
+      <h2>Feedback & Suggestions</h2>
+
+      <p>
+        Your feedback helps us improve QuickTools Hub and create more useful
+        free online tools. If you have an idea for a new calculator or tool,
+        feel free to let us know.
+      </p>
+
+      <h2>Tool Issues</h2>
+
+      <p>
+        If you notice an incorrect result, broken button, or any other issue
+        with one of our tools, please tell us which tool you were using and
+        describe the problem. We'll review it as soon as possible.
+      </p>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 QuickTools Hub. All rights reserved.</p>
+
+    <p>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+    </p>
+  </footer>
+
+  <script>
+    function sendEmail(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      const subject = encodeURIComponent(
+        "QuickTools Hub Contact - " + name
+      );
+
+      const body = encodeURIComponent(
+        "Name: " + name +
+        "\nEmail: " + email +
+        "\n\nMessage:\n" + message
+      );
+
+      window.location.href =
+        "mailto:sagar79597@gmail.com?subject=" +
+        subject +
+        "&body=" +
+        body;
+    }
+  </script>
+
+</body>
+</html>
